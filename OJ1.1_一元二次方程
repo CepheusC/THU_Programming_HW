@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+	int a = 1, b = 1, c = -1;
+	int derta = pow(b, 2) - 4 * a * c;//*的使用
+	float SOL1, SOL2;
+	SOL1 = (-b + sqrt(derta)) / (2 * a);
+	SOL2 = (-b - sqrt(derta)) / (2 * a);
+	cout << (SOL1 >= SOL2 ? SOL1 : SOL2) << endl;//三目运算符
+	return 0;
+}
