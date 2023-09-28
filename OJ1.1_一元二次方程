@@ -1,3 +1,8 @@
+/*Alice的数学非常弱以至于不会求解一元二次方程x2+x-1=0的根，现在想请你写个程序帮他解决这个问题。
+HINT: 求平方根可以用cmath库里的sqrt()函数
+无输入，输出该方程两个解中较大的那个
+示例：0.618034*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;
